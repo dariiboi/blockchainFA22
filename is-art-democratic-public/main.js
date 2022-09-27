@@ -1,4 +1,4 @@
-const provider = new ethers.providers.Web3Provider(window.ethereum);
+const provider = new ethers.providers.Web3Provider(window.ethereum, "goerli");
 
 // the person signed into metamask is the 'signer'
 const signer = provider.getSigner();
